@@ -21,11 +21,10 @@ width: 90%;
 margin-right: auto;
 margin-left: auto;
 color: #000000;
-background-color: #808080;
-margin-bottom: 5px;
+margin-bottom: 10px;
 }
 
-div{
+section{
         border: 1px solid #000000;
         margin: 15px;
         background-color: #808080;
