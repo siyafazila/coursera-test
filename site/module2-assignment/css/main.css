@@ -6,25 +6,25 @@
 }
 
 body{
+	
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size:100%;
 }
+
 h1{
+
 margin-bottom: 20px;
 font-size: 28px;
 text-align: center;
+
 }
 
-div.row{
-	margin:left:auto;
-	margin:right:auto;
-}
+
 
 section{
 	    
-	    margin: 10px;
-	    border: 1px solid #000000;
-        
+	 	margin: 15px; 
+	  	border: 1px solid #000000;
         background-color: #808080;
         
 }
@@ -39,7 +39,7 @@ h3{
     float:right;
 }
 
-#chicken {
+#chicken{
     
 	background-color: #ff8080;
 	color: #000000;
@@ -47,13 +47,13 @@ h3{
 	
 }
 
-#beef {
+#beef{
 	background-color: #800000;
 	color: #ffffff;
 
 }
 
-#sushi {
+#sushi{
 	background-color: #ffff80;
 	color: #000000;
 }
@@ -62,12 +62,14 @@ p{
 
 clear:both;
 font-size: 16px;	
+font-weight: bold;
 width: 90%;
 margin-right: auto;
 margin-left: auto;
 color: #000000;
 margin-bottom: 10px;
 }
+
 /*************Simple Responsive Framework***********/
 
 .row{
