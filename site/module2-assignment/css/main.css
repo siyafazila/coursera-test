@@ -24,17 +24,19 @@ color: #000000;
 margin-bottom: 10px;
 }
 
-section{
+div{
         border: 1px solid #000000;
         margin: 15px;
         background-color: #808080;
+        padding: 15px;
 
 }
 
 h3{  
 	font-size: 18px;
 	margin-bottom: 5px;
-	border: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	text-align: center;
 
 }
