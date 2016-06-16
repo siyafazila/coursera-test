@@ -24,7 +24,7 @@ color: #000000;
 margin-bottom: 10px;
 }
 
-div{
+section{
         border: 1px solid #000000;
         margin: 15px;
         background-color: #808080;
@@ -35,15 +35,15 @@ div{
 h3{  
 	font-size: 18px;
 	margin-bottom: 5px;
-	border-left: 1px solid #000000;
-	border-bottom: 1px solid #000000;
 	text-align: center;
-
+	border-bottom: 1px solid #ffffff;
+    border:left: 1px solid #ffffff;
 }
 
 #chicken {
 	background-color: #ff8080;
 	color: #000000;
+	
 }
 
 #beef {
