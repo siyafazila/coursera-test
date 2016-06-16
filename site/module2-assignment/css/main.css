@@ -15,46 +15,58 @@ font-size: 28px;
 text-align: center;
 }
 
-p{
-font-size: 16px;	
-width: 90%;
-margin-right: auto;
-margin-left: auto;
-color: #000000;
-margin-bottom: 10px;
+div.row{
+	margin:left:auto;
+	margin:right:auto;
 }
 
-div.food{
-        border: 1px solid #000000;
-        margin: 15px;
+section{
+	    
+	    margin: 10px;
+	    border: 1px solid #000000;
+        
         background-color: #808080;
         
 }
 
-h3{ position: relative;
-	left: 75px;
+h3{ 
 	font-size: 18px;
 	margin-bottom: 5px;
-	width: 50px;
+	width: 200px;
 	text-align: center;
-	border-bottom: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
+	border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    float:right;
 }
 
 #chicken {
+    
 	background-color: #ff8080;
 	color: #000000;
+	
 	
 }
 
 #beef {
 	background-color: #800000;
 	color: #ffffff;
+
 }
 
 #sushi {
 	background-color: #ffff80;
 	color: #000000;
+}
+
+p{
+
+clear:both;
+font-size: 16px;	
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+color: #000000;
+margin-bottom: 10px;
 }
 /*************Simple Responsive Framework***********/
 
@@ -70,7 +82,10 @@ h3{ position: relative;
 @media (min-width: 992px) {     
 
 	.col-dsktp-1, .col-dsktp-2, .col-dsktp-3, .col-dsktp-4, .col-dsktp-5, .col-dsktp-6, .col-dsktp-7,
-.col-dsktp-8, .col-dsktp-9, .col-dsktp-10, .col-dsktp-11, .col-dsktp-12{         float: left; border: 1px solid black;    
+.col-dsktp-8, .col-dsktp-9, .col-dsktp-10, .col-dsktp-11, .col-dsktp-12{         
+	float: left; 
+	  
+	
  }
 
   .col-dsktp-1 {
@@ -117,7 +132,8 @@ h3{ position: relative;
 		.col-tblt-1, .col-tblt-2, .col-tblt-3, .col-tblt-4, .col-tblt-5, .col-tblt-6, .col-tblt-7,
 		.col-tblt-8, .col-tblt-9, .col-tblt-10, .col-tblt-11, .col-tblt-12{         
 			float: left;
-			border: 1px solid black;    
+			    
+			
  }
 
   .col-tblt-1 {
@@ -164,7 +180,8 @@ h3{ position: relative;
 		.col-mbl-1, .col-mbl-2, .col-mbl-3, .col-mbl-4, .col-mbl-5, .col-mbl-6, .col-mbl-7,
 		.col-mbl-8, .col-mbl-9, .col-mbl-10, .col-mbl-11, .col-mbl-12{         
 			float: left;
-			border: 1px solid black;    
+			
+			  
  }
 
   .col-mbl-1 {
