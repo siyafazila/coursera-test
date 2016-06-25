@@ -111,6 +111,7 @@ h5{
  section#chicken {
   	background-color: #999999;
   	margin-top: 20px;
+  	min-height: 1000px;
 
   }
 
