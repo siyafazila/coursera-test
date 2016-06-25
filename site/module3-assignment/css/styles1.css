@@ -1,0 +1,178 @@
+body{
+
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+/**Header**/
+
+#navgtn {
+	background-color: #999999;
+	border-radius: 0;
+	border: 2px solid #000000;
+	
+}
+
+.container{
+	width: 98%;
+
+}
+
+div#hdr.container{
+	width: 100%;
+}
+
+
+/**Brand Name**/
+
+.navbar-brand h1{
+	color: #000;
+	margin-top: -5px;
+	margin-bottom: 0;
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+
+/********************Button style****************/
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #999999;
+    }
+
+button.navbar-toggle.collapsed {
+	border: 2px solid #000000;
+	background-color: #999999;
+	
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #999999;
+}
+
+button.navbar-toggle.collapsed .icon-bar {
+    border: 2px solid #000000;
+}
+ 
+button.navbar-toggle {
+ 	border: 2px solid #dddddd;
+ 	
+ }
+
+button.navbar-toggle .icon-bar {
+ 	border: 2px solid #dddddd;
+ }
+
+/************************Menu list****************/
+
+#nav-list {
+	margin-top: 1px;
+	margin-bottom: 0px;
+	
+}
+
+ul#nav-list {
+border-top: 2px solid #000000;
+}
+
+#nav-list a{
+	color: #000000;
+	font-size: 1.25em;
+	background-color: #ffffff;
+	text-align: center;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+
+}
+
+/*****************Menu Heading*************/
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+ 
+
+/****************Menu Item Heading*****************/
+h5 {
+ 	color: #000000;
+    font-weight: bold;
+    font-size: 1.35em;
+    margin-bottom:15px;
+    padding-top: 15px;
+ }
+ 
+
+ 
+ /**************** Menu Item section************/
+
+ section.menu-item {
+  	background-color: #999999;
+  	margin-top: 20px;
+  	min-height: 1000px;
+  	margin-bottom: 15px;
+
+  }
+
+ 
+ .menu-item p{
+ 	color: #000000;
+ 	font-size: 1.25em;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ }
+
+ .menu-item a {
+     color: #ff0066;
+     text-decoration: none;
+     padding: 15px;
+     margin-bottom: 20px;
+     font-size: 1.20em;
+     font-weight: bold;
+     text-transform: capitalize;
+     margin-bottom: 10px;
+     text-align: center;
+
+
+ }
+
+.menu-item a:hover, .menu-item a:active {
+	color: #ffff00;
+	text-decoration: none;
+     
+}
+
+p.h5 {
+	
+	color: #1f1f14;
+}
+
+/**Large Devices**/
+ @media (min-width: 1200px) {
+ 
+ 	
+ }
+
+/**Medium Devices**/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/**Small Devices**/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/**Extra small devices**/
+@media (max-width: 767px) {
+	div#main-content.container{
+		width: 80%;
+	}
+}
